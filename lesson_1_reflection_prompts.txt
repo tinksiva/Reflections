@@ -1,0 +1,84 @@
+How did viewing a diff between two versions of a file help you see the bug that
+
+was introduced?
+
+    
+
+it compared the two files and laid out the differences clearly.
+we need not compare the two files manually
+simply scanning through the contents that have changed helped in identifying the bug
+
+How could having easy access to the entire history of a file make you a more
+
+efficient programmer in the long term?
+
+    
+
+it would make it easier to undo changes to the code
+revert back to an earlier version of the file
+makes debugging easier
+saves time wasted in comparing long lines of code
+
+
+
+
+What do you think are the pros and cons of manually choosing when to create a
+
+commit, like you do in Git, vs having versions automatically saved, like Google
+
+docs does?
+
+
+
+in git manually choosing when to commit, is actaully more flexible.
+we can commit as per our convenience and also we can commit in such way that 
+each commit reflects a logical change.
+we can make sure its neither  too big or too small
+cons of this method would be forgeting to commit or improper commiting
+strategies
+unlike these in systems like google docs commit is done often an it is mot flexible
+history might get cluttered
+it is useful for people who are forgetful
+    
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+
+files in one commit, while others, like Google Docs, treat each file separately?
+
+
+    
+git is mainly for tracking versions of code
+in files containing codes , changes to one file may affect another
+so keep track of all of them these features provided by git are essential
+but on the other hand goole docs simply saves documents where changes to one file
+may not affect other
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+    
+
+git log gives the history of all commits
+git diff compares them to give the changes
+
+
+How might using version control make you more confident to make changes 
+that 
+could break something?
+
+    
+
+even if we make channges that introduces bugs , we can revert back to 
+an older versions using git checkout and find exactly where the bug was introduced
+and resolve it. since bugs can be fixed it makes us more cofident
+
+
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    
+
+version control
