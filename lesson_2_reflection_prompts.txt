@@ -22,13 +22,52 @@ should the commit track
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+we can add whatever files we have modified only to the staging area ensuring
+that we have only one commit per logical change
+
+
+
 What are some situations when branches would be helpful in keeping your history
+
 organized? How would branches help?
+
+moving on to a different piece of work
+branches are useful when you deal with situations where you have to do
+something to the project other than updating and adding new features
+like experimenting with the project  but not disturbing the original one
+branches helps in making these experiments because we can seperately work on it
+without affecting the orginal one. if we want the original one we can easily 
+check it out
+
+
 
 How do the diagrams help you visualize the branch structure?
 
+it gives a clear picture of the last commit where the branch was created
+or to have a idea about where the branch s staring point is
+it also makes sure that we dont lose out on any branch
+
+
+
+
 What is the result of merging two branches together? Why do we represent it in
+
 the diagram the way we do?
 
+we can merge the changes made by two branches together.incorporate changes 
+made by both the versions into a single branch. 
+diagram is used beacause now the merged commit becomes the tip of both the branches
+
+
+
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
+
 manually?
+
+
+manual merging is more convenient and efficient but time consuming
+we can decide which features to keep and which not to keep
+but auto merging is a easier and less time consuming option
+but not full proff 
+
