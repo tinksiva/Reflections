@@ -3,3 +3,11 @@ When would you want to use a remote repository rather than keeping all your work
 when we might want to colloborate with others or when we want to allow many users to access
 and modify or project.
 it helps in cases where multiple users are working on a project
+
+Why might you want to always pull changes manually rather than having Git automatically 
+stay up-to-date with your remote repository?
+
+this is because several or many different users may operate on the project that 
+has been pushed onto to git hub. the option of pull allows the primary developer or
+the user to pull those modifications into his own repository on git only when he wants to
+implement those features or when he finds them useful.
